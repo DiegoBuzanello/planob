@@ -59,12 +59,14 @@
 .align-center {
 	margin-top: 10%;
 }
-#sustentabilidade {
-	
+#sustentabilidade .container{
+	max-width: 1140px;
 }
 #sustentabilidade h3{
-	font-size: 16px;
-	font-weight: 300;
+	font-size: 14px;
+	font-weight: 200;
+	line-height: 1.5;
+	letter-spacing: 1px;
 }
 .sem-padding {
 	padding-bottom: 0;
@@ -162,7 +164,7 @@ footer ul {
 }
 .sust-h2 {
 	color: #fff;
-	font-size: 40px;
+	font-size: 35px;
 	font-weight: 600;
 
 }
@@ -209,6 +211,9 @@ footer ul {
 
 
 /* animation icon embarque */
+#choose-character {
+	padding-top: 50px;
+}
 #choose-character .info-energy{
 	font-size: 12px;
 
@@ -260,6 +265,7 @@ body {
 .choose-char {
 	font-size: 25px;
 	color: #7B7B7B;
+	font-weight: 400;
 }
 .modal-content h3 {
 	text-align: center;
