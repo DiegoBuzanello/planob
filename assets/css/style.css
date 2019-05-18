@@ -261,7 +261,9 @@ body {
 	color: #fff;
 	font-size: 18px;
 }
-
+.powered-by img {
+	display: none!important;
+}
 .choose-char {
 	font-size: 25px;
 	color: #7B7B7B;
@@ -269,4 +271,7 @@ body {
 }
 .modal-content h3 {
 	text-align: center;
+}
+.nav-link:hover {
+	border-bottom: #00BC8C solid 1px;
 }
