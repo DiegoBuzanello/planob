@@ -1,0 +1,152 @@
+@media only screen and (max-width: 600px) {
+    .responsivo-logo {
+      max-width: 70px;
+      
+    }
+    #header ul {
+        text-align: center;
+    }
+    #header a {
+        margin: 0;
+        
+    }
+    #header li {
+        padding: 20px 0px 20px 0px;
+        margin-right: 0px!important;
+    }
+    footer .align-footer-elem {
+        display: block;
+        text-align: center;
+    }
+    footer li {
+        padding: 10px 0;
+        display: block;
+    }
+    .frase-footer {
+        font-size: 15px;
+        text-align: center;
+    }
+    .footer-centralizado {
+        text-align: center;
+    }
+    .col-x {
+        padding: 20px 0px;
+    }
+    .destaque-brecho {
+        font-size: 50px;
+    }
+    .destaque-brecho-p {
+        font-size: 18px;
+    }
+    .sust-h2 {
+        font-size: 27px;
+    }
+    .sust-h3 {
+        font-weight: 200;
+    }
+    #main h1 {
+        font-size: 35px!important;
+        line-height: 70px;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .ilust {
+        width: 100%;
+    }
+  }
+  @media only screen and (max-width: 1023px) {
+    .responsivo-logo {
+      width: 80px;
+      
+    }
+    #header ul {
+        text-align: center;
+    }
+    #header a {
+        margin: 0;
+        
+    }
+    #header li {
+        padding: 20px 0px 20px 0px;
+        margin-right: 0px!important;
+    }
+    footer .align-footer-elem {
+        display: block;
+        text-align: center;
+    }
+    footer li {
+        padding: 10px 0;
+        display: block;
+    }
+    .frase-footer {
+        font-size: 15px;
+        text-align: center;
+    }
+    .footer-centralizado {
+        text-align: center;
+    }
+    .col-x {
+        padding: 40px 0px;
+    }
+    #main h1 {
+        font-size: 100px;
+        line-height: 90px;
+        text-align: center;
+        padding-top: 80px;
+    }
+    #main h2 {
+        font-size: 17px;
+        
+        text-align: center;
+        padding-top: 80px;
+    }
+    #main .ajuste-local {
+        width: 20%;
+    }
+  }
+  @media only screen and (min-width: 1024px) {
+    .responsivo-logo {
+      width: 70px;
+      padding-bottom: 1.5rem!important;
+    }
+    #header ul {
+        text-align: center;
+    }
+    .ajustar-footer {
+        align-items: center!important;
+        display:flex;
+    }
+    #header a {
+        margin: 0;
+        
+    }
+    
+    .col-x {
+        width: 33.3%;
+        text-align: center;
+        padding: 40px 0px;
+       
+    }
+    .justif {
+        justify-content: space-between!important;
+        display: flex!important;
+    }
+    footer li {
+        display: inline;
+        padding: 0px 5px;
+        color: #CECECE;
+    }
+    footer ul {
+        margin-bottom: 0px;
+        margin-left: 40px;
+
+    }
+    .frase-footer {
+        font-size: 15px;
+        text-align: center;
+    }
+    .footer-centralizado {
+        text-align: center;
+    }
+
+  }

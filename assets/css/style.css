@@ -1,0 +1,205 @@
+* {
+	font-family: 'Poppins', sans-serif;
+}
+.container-fluid {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.container {
+	max-width: 1440px;
+	
+}
+#header ul, #header button{
+	font-size: 18px;
+	
+}
+.logo-header{
+	max-width: 40%;
+    height: auto;
+}
+.center-object {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.ilust {
+	width: 80%;
+}
+.embarque-style {
+	color: #7B7B7B;
+	font-size: 16px;
+}
+.adjust-vw {
+	margin-top: 100px;
+}
+.icon-embarque {
+
+}
+/**#main {
+	background-image:url("../img/teste.png");
+	background-repeat: no-repeat;
+	
+}**/
+/* #view-size {
+	height: 100vh;
+} */
+#main h1 {
+	font-size: 90px;
+	line-height: 90px;
+	margin-top: 10vh;
+}
+.align-center {
+	margin-top: 10%;
+}
+#main h2 {
+	font-size: 25px;
+	font-weight: 300;
+}
+#sustentabilidade {
+	
+}
+#sustentabilidade h3{
+	font-size: 16px;
+	font-weight: 300;
+}
+.sem-padding {
+	padding-bottom: 0;
+}
+footer {
+	background-color: #404040;
+}
+footer ul {
+	color: white;
+	margin-bottom: 0;
+}
+.frase-footer {
+	font-size: 23px;
+	font-style: italic;
+	color: #CECECE;
+	text-align: center;
+}
+.footer-centralizado {
+	border-top: #707070 1px solid;
+	border-bottom: #707070 1px solid;
+}
+#main .ajuste-local {
+	width: 70%;
+}
+/* .nav-aventura {
+	position:absolute;
+	bottom:0;
+	display: block;
+	
+} */
+.size-icons {
+	width:40px;
+}
+.destaque-brecho {
+	font-size: 70px;
+	text-align: center;
+	color: #FFAF00;
+	font-weight: 600;
+}
+#dono-brecho {
+	background-image: url(../img/background-bot.svg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#dono-brecho .btn {
+	background-color: #00BC8C;
+	color: #fff;
+	font-size: 25px;
+}
+.destaque-brecho-p {
+	font-size: 20px;
+	text-align: center;
+	color: #353535;
+	font-weight: 400;
+}
+.btn-grad {
+	background-image: linear-gradient(to right, #FFAF00 0%, #FF9283 100%);
+	color: #fff;
+	opacity: 0.8;
+	transition: 0.3s;
+}
+.btn-grad:hover { 
+	background-position: right center; 
+	
+	opacity: 1;
+	color:#fff;
+}
+
+.mural {
+	text-align: center;
+	color: #00BC8C;
+	font-weight: 600;
+	font-size: 80px;
+}
+.mural-p {
+	text-align: center;
+	color: #353535;
+	font-weight: 400;
+	font-size: 18px;
+}
+#sustentabilidade {
+	background-image: url(../img/background-sust.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#sustentabilidade .row {
+	margin-left: 0px;
+}
+.background-head {
+	background-color: #F7EEDD;
+}
+.sust-h2 {
+	color: #fff;
+	font-size: 40px;
+	font-weight: 600;
+
+}
+#main h1 {
+	color: #F7EEDD;
+}
+#main h2 {
+	font-size: 23px;
+    font-weight: 300;
+    line-height: 1.3;
+    color: #313131;
+}
+#main span {
+	color: #BE6A5F;
+}
+body {
+	background-image: url(../img/background-main.svg);
+	background-repeat: no-repeat;
+
+	
+	background-position: cover;
+
+}
+/* #view-size {
+	background-image: url(../img/background-main.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+} */
+.sust-h3 {
+	color: #FFFAF2;
+	font-size: 20px;
+	font-weight: 300;
+	
+}
+.btn-style {
+	background-color: #00BC8C;
+	color: #fff;
+	font-size: 18px;
+}
+
+.choose-char {
+	font-size: 25px;
+	color: #7B7B7B;
+}
+.modal-content h3 {
+	text-align: center;
+}
