@@ -237,10 +237,10 @@ footer ul {
 	font-size: 140px ;
 	font-weight: 600;
 }
-body {
+.backg {
 	background-image: url(../img/background-main.svg);
 	background-repeat: no-repeat;
-
+	margin-top: 0%;
 	
 	background-position: cover;
 
@@ -272,6 +272,11 @@ body {
 .modal-content h3 {
 	text-align: center;
 }
+.nav-link {
+	border-bottom: 2px solid rgba(255, 175, 0, .0);
+	
+}
 .nav-link:hover {
-	border-bottom: #00BC8C solid 1px;
+	transition: 0.4s;
+	border-bottom: 2px solid rgba(255, 175, 0, 1);
 }

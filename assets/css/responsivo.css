@@ -45,16 +45,16 @@
         font-weight: 200;
     }
     #main h1 {
-        font-size: 35px!important;
-        line-height: 70px;
+        font-size: 65px!important;
+        line-height: 70px!important;
         text-align: center;
-        padding-top: 50px;
+        padding-top: 10px!important;
     }
     #main span {
-        font-size:50px ;
+        font-size:70px ;
     }
     .ilust {
-        width: 100%;
+        width: 70%;
     }
     .mural {
         font-size:34px ;
