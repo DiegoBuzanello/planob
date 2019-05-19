@@ -287,7 +287,11 @@ footer ul {
 	font-weight: 600;
 }
 #brechos-page {
-	margin-top: 20vh;
+	padding-top: 20vh;
+	padding-bottom: 10vh;
+	background-image: url(../img/background-brechos1.svg);
+	background-repeat: no-repeat;
+	background-position: left center cover;
 }
 #brechos-page h1{
 	font-size: 60px;	
@@ -337,4 +341,6 @@ footer ul {
 	/* Add shadows to create the "card" effect */
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
-  
+  .size-adjust {
+	  height: 400px;
+  }
