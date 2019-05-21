@@ -1,6 +1,9 @@
 * {
 	font-family: 'Poppins', sans-serif;
 }
+html {
+	scroll-behavior: smooth;
+  }
 .container-fluid {
 	padding-right: 0px;
 	padding-left: 0px;
@@ -11,6 +14,12 @@
 }
 #header ul, #header button{
 	font-size: 15px;
+	
+}
+.btn-primary:hover {
+	background-image: url(../img/search-icon.svg) no-repeat;
+}
+.search-icon {
 	
 }
 .logo-header{
@@ -122,6 +131,12 @@ footer ul {
 	text-align: center;
 	color: #353535;
 	font-weight: 400;
+}
+.btn-grad a{
+	color: #fff;
+}
+.btn-grad a:active{
+	text-decoration: none;
 }
 .btn-grad {
 	background-image: linear-gradient(to right, #FFAF00 0%, #FF9283 100%);
@@ -280,6 +295,9 @@ footer ul {
 	transition: 0.4s;
 	border-bottom: 2px solid rgba(255, 175, 0, 1);
 }
+.hover-active {
+	border-bottom: 1px solid rgba(255, 175, 0, 1);
+}
 #sustentabilidade-page {
 	margin-top: 20vh;
 }
@@ -345,4 +363,29 @@ footer ul {
   }
   .size-adjust {
 	  height: 400px;
+  }
+  #onde-doar-page {
+    padding-top: 20vh;
+    padding-bottom: 10vh;
+    background-image: url(../img/background-brechos1.svg);
+	background-repeat: no-repeat;
+  }
+  #onde-doar-page h1 {
+    font-size: 60px;
+    color: #00BC8C;
+    font-weight: 600;
+}
+.circle {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+	border-radius: 50%;
+	background-color: #FFAF00;
+	animation: button 5s linear infinite;
+  }
+  .animated {
+	animation-duration: 15s!important;
   }

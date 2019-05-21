@@ -46,7 +46,7 @@
                                 <a class="nav-link" href="sustentabilidade.html">sustentabilidade</a>
                             </li>
                             <li class="nav-item active mr-3">
-                                <a class="nav-link" href="#">brechós</a>
+                                <a class="nav-link hover-active" href="#">brechós</a>
                             </li>
                             <li class="nav-item mr-3">
                                 <a class="nav-link" href="#">agenda</a>
@@ -55,7 +55,7 @@
                                 <a class="nav-link" href="#">sobre</a>
                             </li>
                             
-                            <button class="btn my-2 my-sm-0 btn-grad" type="submit">onde doar?</button>
+                            <button class="btn my-2 my-sm-0 btn-grad" type="submit"><a href="onde-doar.html">onde doar?</a></button>
                         </ul>
                     </div>
                 </div>
@@ -66,7 +66,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <h1>Brechós</h1>
+                    <h1>brechós</h1>
                     <div class="pb-4">
                     <h2 class="pt-4 pb-2">Explore os brechós perto de você.</h2>
                     <form>
@@ -75,7 +75,7 @@
                                 <input type="text" class="form-control" placeholder="Digite seu CEP">
                             </div>
                             <div class="col">
-
+                                    <input type="button" class="btn btn-primary search-icon" onClick="document.getElementById('resultados').scrollIntoView();" />
                             </div>
                         </div>
                     </form>
@@ -106,9 +106,9 @@
             </div>
         </div>
     </section>
-
+<div id="resultados">
     <section id="filtro-brechos" class="pt-5 pb-5">
-        <div class="container">
+        <div id="" class="container">
             <h3 class="pt-4 pb-2">Resultados</h3>
             <div class="owl-carousel owl-theme pt-2">
                 <div class="item card-sh">
@@ -351,6 +351,7 @@
 
         </div>
     </section>
+    </div>
     <footer>
         <div class="container">
             <div class="row">
