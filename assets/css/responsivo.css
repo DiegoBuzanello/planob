@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width:0px) and (max-width: 600px) {
     .responsivo-logo {
       max-width: 70px;
       
@@ -73,7 +73,13 @@
         padding-top: 30px;
     }
   }
-  @media only screen and (max-width: 1023px) {
+  @media only screen and (min-width: 800px) and (max-width: 1023) {
+
+
+  }
+
+
+  @media only screen and (min-width: 800px) and (max-width: 1023) {
     .responsivo-logo {
       width: 80px;
       
@@ -123,10 +129,27 @@
         width: 20%;
     }
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1200px) {
     .responsivo-logo {
       width: 70px;
       padding-bottom: 1.5rem!important;
+    }
+    #main h1 {
+        font-size: 80px;
+        line-height: 75px;
+        
+    }
+    .adjust-vw {
+        margin-top: 30px;
+    }
+    #main span {
+        font-size: 90px;
+    }
+    #main h2 {
+        font-size: 20px;
+    }
+    .align-center {
+        margin-top:80px;
     }
     #header ul {
         text-align: center;

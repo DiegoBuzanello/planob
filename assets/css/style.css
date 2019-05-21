@@ -10,7 +10,7 @@
 	
 }
 #header ul, #header button{
-	font-size: 18px;
+	font-size: 15px;
 	
 }
 .logo-header{
@@ -114,7 +114,8 @@ footer ul {
 #dono-brecho .btn {
 	background-color: #00BC8C;
 	color: #fff;
-	font-size: 25px;
+	font-size: 18px;
+	
 }
 .destaque-brecho-p {
 	font-size: 20px;
@@ -238,7 +239,7 @@ footer ul {
 	font-weight: 600;
 }
 .backg {
-	background-image: url(../img/background-main.svg);
+	background-image: url(../img/background-main3.svg);
 	background-repeat: no-repeat;
 	background-position: top center;
 
@@ -258,6 +259,7 @@ footer ul {
 	background-color: #00BC8C;
 	color: #fff;
 	font-size: 18px;
+	letter-spacing: 1px;
 }
 .powered-by img {
 	display: none!important;
