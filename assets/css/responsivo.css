@@ -1,4 +1,10 @@
-@media only screen and (min-width:0px) and (max-width: 600px) {
+@media only screen and (min-width:0px) and (max-width: 350px) {
+#main span {
+    font-size: 60px!important;
+}
+}
+
+@media only screen and (min-width:300px) and (max-width: 1024px) {
     .responsivo-logo {
       max-width: 70px;
       
@@ -50,6 +56,9 @@
         text-align: center;
         padding-top: 10px!important;
     }
+    #main h2 {
+        text-align: center;
+    }
     #main span {
         font-size:70px ;
     }
@@ -79,7 +88,7 @@
   }
 
 
-  @media only screen and (min-width: 800px) and (max-width: 1023) {
+  @media only screen and (min-width: 800px) and (max-width: 1199px) {
     .responsivo-logo {
       width: 80px;
       
@@ -116,7 +125,7 @@
     #main h1 {
         font-size: 100px;
         line-height: 90px;
-        text-align: center;
+    
         padding-top: 80px;
     }
     #main h2 {
@@ -127,6 +136,28 @@
     }
     #main .ajuste-local {
         width: 20%;
+    }
+    footer li {
+        display: inline;
+        padding: 0px 5px;
+        color: #CECECE;
+    }
+    footer ul {
+        margin-bottom: 0px;
+        margin-left: 40px;
+
+    }
+    .frase-footer {
+        font-size: 15px;
+        text-align: center;
+    }
+    .footer-centralizado {
+        text-align: center;
+    }
+    .col-x {
+        width: 33.3%;
+        text-align: center;
+        padding: 40px 0px;
     }
   }
   @media only screen and (min-width: 1200px) {
@@ -146,7 +177,7 @@
         font-size: 90px;
     }
     #main h2 {
-        font-size: 20px;
+        font-size: 19px;
     }
     .align-center {
         margin-top:80px;

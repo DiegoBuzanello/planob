@@ -8,10 +8,7 @@ html {
 	padding-right: 0px;
 	padding-left: 0px;
 }
-.container {
-	max-width: 1440px;
-	
-}
+
 #header ul, #header button{
 	font-size: 15px;
 	
@@ -108,6 +105,21 @@ footer ul {
 } */
 .size-icons {
 	width:40px;
+}
+#choose-character .card-sh {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+}
+.size-icons:hover {
+	animation: spinAround 0.4s linear;
+}
+@keyframes spinAround {
+	from {
+		transform: rotate(0deg)
+	}
+	to {
+		transform: rotate(360deg);
+	}
 }
 .destaque-brecho {
 	font-size: 70px;
@@ -298,6 +310,7 @@ footer ul {
 .hover-active {
 	border-bottom: 1px solid rgba(255, 175, 0, 1);
 }
+
 #sustentabilidade-page {
 	margin-top: 20vh;
 }
@@ -389,3 +402,13 @@ footer ul {
   .animated {
 	animation-duration: 15s!important;
   }
+  #main .container {
+	  max-width: 1140px;
+  }
+  #sustentabilidade-page .container {
+	  max-width: 1140;
+  }
+  .shake:hover {
+    -webkit-animation-name: shake;
+    animation-name: shake;
+}

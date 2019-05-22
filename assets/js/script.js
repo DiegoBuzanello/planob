@@ -23,5 +23,3 @@ $('.owl-carousel').owlCarousel({
 $('#myModal').on('shown.bs.modal', function () {
     $('#myInput').trigger('focus')
   })
-
-  
