@@ -146,6 +146,7 @@ footer ul {
 }
 .btn-grad a{
 	color: #fff;
+	text-decoration: none;
 }
 .btn-grad a:active{
 	text-decoration: none;
