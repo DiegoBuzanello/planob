@@ -16,9 +16,7 @@ html {
 .btn-primary:hover {
 	background-image: url(../img/search-icon.svg) no-repeat;
 }
-.search-icon {
-	
-}
+
 .logo-header{
 	max-width: 40%;
     height: auto;
@@ -44,9 +42,7 @@ html {
 .adjust-vw {
 	margin-top: 10%;
 }
-.icon-embarque {
 
-}
 /**#main {
 	background-image:url("../img/teste.png");
 	background-repeat: no-repeat;

@@ -3,6 +3,44 @@
     font-size: 60px!important;
 }
 }
+@media only screen and (min-width:0px) and (max-width: 600px) {
+    .form-control {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        
+    }
+
+    .btn-primary1, .btn-primary1:hover, .btn-primary1:active {
+        background-color: #01BC8C;
+        border-color:#01BC8C;
+        color: #fff;
+    }
+    a, a:hover, a:active, a:visited, a:focus {
+        text-decoration:none;
+    }
+    #brechos-page h2 {
+        font-size: 18px;
+    }
+    #brechos-page .form-control {
+        border: 0px solid black;
+        -webkit-box-shadow: 0px 3px 6px 1px rgba(0,0,0,0.16);
+-moz-box-shadow: 0px 3px 6px 1px rgba(0,0,0,0.16);
+box-shadow: 0px 3px 6px 1px rgba(0,0,0,0.16);
+    }
+    #brechos-page .ajuste-icone {
+        position: relative;
+
+    }
+    #brechos-page .ajuste-icone .icone-ajuste {
+        position: absolute;
+        top: 0px;
+        right: 20px;
+        font-size: 15px;
+        width: 30px;
+    }
+
+    }
 
 @media only screen and (min-width:300px) and (max-width: 1024px) {
     .responsivo-logo {
