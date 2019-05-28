@@ -23,3 +23,14 @@ $('.owl-carousel').owlCarousel({
 $('#myModal').on('shown.bs.modal', function () {
     $('#myInput').trigger('focus')
   })
+
+  function myFunction() {
+    var x = document.getElementById("mudar-mes");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    
+
+  }
