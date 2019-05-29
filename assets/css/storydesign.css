@@ -31,10 +31,7 @@ body {
 }
 
 
-#myLeftArrow img {
-    width: 2%;
-    height: auto;
-}
+
 
 /*.myLeftArrow img:hover {
     background: #e7e7e7;
@@ -44,28 +41,8 @@ body {
     background: #e7e7e7;
 }*/
 
-#myLeftArrow {
-    position: absolute;
-    top: 90%;
-    left: 5%;
-    right: 30%;
-    bottom: 25%;
-    cursor: pointer;
-}
 
-#myRightArrow img {
-    width: 26%;
-    height: auto;
-}
 
-#myRightArrow {
-    position: absolute;
-    top: 90%;
-    left: 91%;
-    right: 4%;
-    bottom: 25%;
-    cursor: pointer;
-}
 
 
 .fixed-size-square span {
@@ -93,13 +70,7 @@ body {
     height: auto;
 }
 
-.imageside {
-    position: absolute;
-    top: 15%;
-    left: 20%;
-    right: 30%;
-    bottom: 25%;
-}
+
 
 .imageside2left img {
     width: 100%;
@@ -114,18 +85,7 @@ body {
     bottom: 25%;
 }
 
-.panel1Text {
-    color: #6b757c;
-    position: absolute;
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-    width: 50%;
-    top: 20%;
-    left: 43%;
-    right: 30%;
-    bottom: 25%;
-}
+
 
 .panel2TextLeft {
     color: #6b757c;

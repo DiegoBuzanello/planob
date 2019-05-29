@@ -493,3 +493,22 @@ footer ul {
 	font-weight: 700;
 	color: #000000;
 }
+#story-1 .container{
+	background-color: #fff;
+	margin: 20px 20px;
+	width: auto;
+}
+.texto-narrativa {
+	font-size: 15px;
+	font-weight: normal;
+	color: #535353;
+}
+.titulo-narrativa {
+	font-weight: 700;
+}
+.texto-narrativa-2 {
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 1.5;
+	color: #535353;
+}
