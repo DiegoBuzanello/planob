@@ -191,15 +191,9 @@ footer ul {
 	color: #fff;
 	font-size: 35px;
 	font-weight: 600;
-
 }
-/* animation icon embarque */
-
+/* icone animação embarque */
 .arrow{
-    /* position: absolute;
-    top: 50%;
-    left: 50%;
-	transform: translate(-50%,-50%); */
 	display: inline-block;
 }
 .arrow span{
@@ -231,11 +225,7 @@ footer ul {
         transform: rotate(45deg) translate(20px,20px);
     }
 }
-
-
-
-
-/* animation icon embarque */
+/* fim icone animação embarque */
 #choose-character {
 	padding-top: 50px;
 }
@@ -416,15 +406,77 @@ footer ul {
 }
 
 
-/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+
 .flip-card {
   background-color: transparent;
  
   border: 1px solid #f1f1f1;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  perspective: 1000px; 
 }
 
-/* This container is needed to position the front and back side */
+/* hover dos integrantes */
+.hvrbox * {
+	box-sizing: border-box;
+}
+.hvrbox {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	max-width: 100%;
+	height: auto;
+}
+.hvrbox img {
+	max-width: 100%;
+}
+.hvrbox .hvrbox-layer_bottom {
+	display: block;
+}
+.hvrbox .hvrbox-layer_top {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	color: #fff;
+	padding: 15px;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+}
+.hvrbox:hover .hvrbox-layer_top,
+.hvrbox.active .hvrbox-layer_top {
+	opacity: 1;
+}
+.hvrbox .hvrbox-text {
+	text-align: center;
+	font-size: 18px;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.hvrbox .hvrbox-text_mobile {
+	font-size: 15px;
+	border-top: 1px solid rgb(179, 179, 179); /* for old browsers */
+	border-top: 1px solid rgba(179, 179, 179, 0.7);
+	margin-top: 5px;
+	padding-top: 2px;
+	display: none;
+}
+.hvrbox.active .hvrbox-text_mobile {
+	display: block;
+}
+/* fim hover */
+
 .flip-card-inner {
   position: relative;
   width: 100%;
@@ -434,12 +486,14 @@ footer ul {
   transform-style: preserve-3d;
 }
 
-/* Do an horizontal flip when you move the mouse over the flip box container */
+
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
 
-/* Position the front and back side */
+#clausula p{
+	text-align: justify;
+}
 .flip-card-front, .flip-card-back {
   position: absolute;
   width: 100%;
@@ -447,13 +501,13 @@ footer ul {
   backface-visibility: hidden;
 }
 
-/* Style the front side (fallback if image is missing) */
+
 .flip-card-front {
   background-color: #bbb;
   color: black;
 }
 
-/* Style the back side */
+
 .flip-card-back {
   background-color: dodgerblue;
   color: white;
@@ -474,10 +528,18 @@ footer ul {
 	color: #808080;
 }
 .texto-agenda {
-	font-size: 10px;
+	font-size: 12px;
 	font-weight: 300;
 	color: #808080;
 	
+}
+.btn-link:hover {
+	color: #212529;
+    text-decoration: none;
+}
+.btn-link {
+	color: #212529!important;
+    text-decoration: none;
 }
 .borda-dia-agenda {
 	border-right: 1px solid #7070701e;
