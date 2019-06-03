@@ -39,9 +39,7 @@ html {
 	font-size: 16px;
 	font-weight: 300;
 }
-.adjust-vw {
-	margin-top: 10%;
-}
+
 
 /**#main {
 	background-image:url("../img/teste.png");
@@ -54,16 +52,16 @@ html {
 #main h1 {
 	font-size: 120px;
 	line-height: 110px;
-	margin-top: 10vh;
+	/* margin-top: 10vh; */
 	font-weight: 400;
 	color: #F7EEDD;
 }
 .align-center {
 	margin-top: 10%;
 }
-#sustentabilidade .container{
+/* #sustentabilidade .container{
 	max-width: 1140px;
-}
+} */
 #sustentabilidade h3{
 	font-size: 14px;
 	font-weight: 200;
@@ -233,6 +231,9 @@ footer ul {
 	font-size: 12px;
 
 }
+a, a:hover, a:active, a:visited, a:focus {
+	text-decoration:none;
+}
 .icon-energy {
 	max-width: 25px;
 	max-height: 25px;
@@ -249,7 +250,7 @@ footer ul {
 }
 #main span {
 	color: #BE6A5F;
-	font-size: 140px ;
+	font-size: 90px ;
 	font-weight: 600;
 }
 .backg {
@@ -297,17 +298,19 @@ footer ul {
 .hover-active {
 	border-bottom: 1px solid rgba(255, 175, 0, 1);
 }
-
 #sustentabilidade-page {
-	margin-top: 20vh;
+	margin-top: 100px;
 }
+/* #sustentabilidade-page {
+	margin-top: 20vh;
+} */
 #sustentabilidade-page h1{
 	font-size: 60px;	
 	color: #00BC8C;
 	font-weight: 600;
 }
 #brechos-page {
-	padding-top: 20vh;
+	
 	padding-bottom: 10vh;
 	background-image: url(../img/background-brechos1.svg);
 	background-repeat: no-repeat;
@@ -317,6 +320,10 @@ footer ul {
 	font-size: 60px;	
 	color: #00BC8C;
 	font-weight: 600;
+}
+#clausula {
+	 max-width: 600px;  
+	    
 }
 #brechos-page h2{
 	font-size: 25px;
@@ -370,7 +377,7 @@ footer ul {
 	  height: 400px;
   }
   #onde-doar-page {
-    padding-top: 20vh;
+    /* padding-top: 20vh; */
     padding-bottom: 10vh;
     background-image: url(../img/background-brechos1.svg);
 	background-repeat: no-repeat;

@@ -7,19 +7,28 @@
         border-left: none;
         border-right: none;
     }
+    .align-b {
+        width: 200px;
+    }
+    #onde-doar-page {
+         padding-top: 20vh;
+    }
     #main h1 {
         font-size: 50px;
         line-height: 1;
         text-align: left;
-        
+        margin-top: 10vh;
     }
+    
     #main h2 {
         text-align: center;
         font-size: 15px;
         font-weight: 300;
         padding:20px 0px;
     }
-    
+    .hide-mm {
+        display: none;
+    }
     .backg {
     background-image: url(../img/background-main-home.svg);
     background-repeat: no-repeat;
@@ -34,6 +43,11 @@
         background-color: #01BC8C;
         border-color:#01BC8C;
         color: #fff;
+    }
+    #brechos-page h1{
+        font-size: 35px;	
+        color: #00BC8C;
+        font-weight: 600;
     }
     .size-adjust {
         height: 200px;
@@ -110,7 +124,9 @@ box-shadow: 0px 3px 6px 1px rgba(0,0,0,0.16);
       .cent {
           text-align: right;
       }
-      
+      .hide-m {
+          display: none;
+      }
       .ilust {
           width: 47%;
       }
@@ -163,12 +179,82 @@ box-shadow: 0px 3px 6px 1px rgba(0,0,0,0.16);
         font-size: 15px;
         width: 30px;
     }
+    .adjust-vw {
+        margin-top: 10%;
+    }
+    #brechos-page {
+        margin-top: 100px;
+    }
+    .borda-dia-agenda {
+        border-right: 1px solid #7070701e;
+        width: 100px;
+    text-align: center;
+    }
+    /* LOADER COMEÇO */
+    /* .loader {
+        height: 50px;
+    }
+ */
+ .loader {
+    /* width: 200px;
+    height: auto; */
+}
+ 
+    /* LOADER FINAL */
 }
 
 @media only screen and (min-width:600px) and (max-width: 1024px) {
     .responsivo-logo {
       max-width: 70px;
       
+    }
+    .align-b {
+        width: 200px;
+    }
+    .texto-agenda {
+        font-size: 12px;
+        font-weight: 300;
+        color: #808080;
+    }
+    .texto-narrativa-2 {
+        font-size: 15px;
+        padding: 0px 50px;
+    }
+    #onde-doar-page .ajuste-icone .icone-ajuste {
+        position: absolute;
+        top: 0px;
+        right: 20px;
+        font-size: 15px;
+        width: 30px;
+    }
+    #onde-doar-page h2 {
+        font-weight: 400;
+        color: rgb(90, 90, 90);
+        font-size: 18px;
+    }
+    #onde-doar-page .form-control {
+        border: 0px solid black;
+        -webkit-box-shadow: 0px 3px 6px 1px rgba(0,0,0,0.16);
+        -moz-box-shadow: 0px 3px 6px 1px rgba(0,0,0,0.16);
+        box-shadow: 0px 3px 6px 1px rgba(0,0,0,0.1);
+    }
+    
+    #onde-doar-page .ajuste-icone .icone-ajuste {
+        position: absolute;
+        top: 0px;
+        right: 20px;
+        font-size: 15px;
+        width: 30px;
+    }
+    .height-responsivo {
+        margin-top:50px;
+    }
+    #onde-doar-page {
+        margin-top: 100px;
+    }
+    #onde-doar-page h1 {
+        font-size: 50px;
+    
     }
     #header ul {
         text-align: center;
@@ -177,13 +263,74 @@ box-shadow: 0px 3px 6px 1px rgba(0,0,0,0.16);
         margin: 0;
         
     }
-    #header li {
+    /* #sustentabilidade-page p {
+        font-size: 25px;
+    } */
+    .borda-dia-agenda {
+        border-right: 1px solid #7070701e;
+        width: 80px;
+    text-align: center;
+    }
+    .ajuste-agenda {
+        width: 300px;
+    }
+    #sustentabilidade-page {
+        margin-top: 100px;
+    }
+    .position-mob {
+        margin-top: -60px;
+    }
+     .navbar-collapse .collapse .show ul {
         padding: 20px 0px 20px 0px;
         margin-right: 0px!important;
-    }
+    } 
     footer .align-footer-elem {
         display: block;
         text-align: center;
+    }
+    .btn-primary1, .btn-primary1:hover, .btn-primary1:active {
+        background-color: #01BC8C;
+        border-color: #01BC8C;
+        color: #fff;
+    }
+    .resultados-fz {
+        font-size: 18px;
+        font-weight: normal;
+    }
+    #brechos-page {
+        margin-top: 100px;
+    }
+    #brechos-page h1{
+        font-size: 50px;	
+        color: #00BC8C;
+        font-weight: 600;
+    }
+    #brechos-page h2{
+        font-size: 25px;
+        font-weight: 400;	
+        color: rgb(90, 90, 90);
+    }
+    .backg-tablet {
+        padding-top: 30px;
+        background-image: url(../img/background-brech.svg);
+        background-repeat: no-repeat;
+        background-position: top center;
+    }
+    #brechos-page .form-control {
+        border: 0px solid black;
+        -webkit-box-shadow: 0px 3px 6px 1px rgba(0,0,0,0.16);
+        -moz-box-shadow: 0px 3px 6px 1px rgba(0,0,0,0.16);
+        box-shadow: 0px 3px 6px 1px rgba(0,0,0,0.16);
+    }
+    #brechos-page .ajuste-icone {
+        position: relative;
+    }
+    #brechos-page .ajuste-icone .icone-ajuste {
+        position: absolute;
+        top: 0px;
+        right: 20px;
+        font-size: 15px;
+        width: 30px;
     }
     footer li {
         padding: 10px 0;
@@ -196,6 +343,11 @@ box-shadow: 0px 3px 6px 1px rgba(0,0,0,0.16);
     .footer-centralizado {
         text-align: center;
     }
+    .hide-m {
+        max-width: 450px;
+        height: auto;
+    }
+    
     .col-x {
         padding: 20px 0px;
     }
@@ -211,17 +363,21 @@ box-shadow: 0px 3px 6px 1px rgba(0,0,0,0.16);
     .sust-h3 {
         font-weight: 200;
     }
+    .hide {
+        display: none;
+    }
     #main h1 {
-        font-size: 65px;
+        font-size: 69px;
         line-height: 70px;
-        text-align: center;
+        text-align: left;
         padding-top: 10px;
     }
     #main h2 {
         text-align: center;
+        padding: 50px 0px;
     }
     #main span {
-        font-size:70px ;
+        font-size:69px ;
     }
     .ilust {
         width: 70%;
@@ -233,7 +389,7 @@ box-shadow: 0px 3px 6px 1px rgba(0,0,0,0.16);
         font-size: 15px;
     }
     #sustentabilidade-page h1{
-        font-size: 35px;	
+        font-size: 50px;	
         color: #00BC8C;
     }
     #filtro-brechos .icons-b {
@@ -242,6 +398,24 @@ box-shadow: 0px 3px 6px 1px rgba(0,0,0,0.16);
     .pad-f-mobile {
         padding-top: 30px;
     }
+    .align-b {
+        width: 200px;
+    }
+    /* .owl-stage {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .owl-item{
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        height: auto !important;
+    } */
   }
   @media only screen and (min-width: 800px) and (max-width: 1023) {
 
@@ -254,17 +428,74 @@ box-shadow: 0px 3px 6px 1px rgba(0,0,0,0.16);
       width: 80px;
       
     }
+    .align-b {
+        width: 200px;
+    }
+    #onde-doar-page .form-control {
+        border: 0px solid black;
+        -webkit-box-shadow: 0px 3px 6px 1px rgba(0,0,0,0.16);
+        -moz-box-shadow: 0px 3px 6px 1px rgba(0,0,0,0.16);
+        box-shadow: 0px 3px 6px 1px rgba(0,0,0,0.1);
+    }
+    #onde-doar-page .ajuste-icone .icone-ajuste {
+        position: absolute;
+        top: 0px;
+        right: 20px;
+        font-size: 15px;
+        width: 30px;
+    }
+    #onde-doar-page h2 {
+        font-weight: 400;
+        color: rgb(90, 90, 90);
+        font-size: 18px;
+    }
+    #onde-doar-page {
+        margin-top: 100px;
+    }
+     #sustentabilidade-page p {
+        font-size: 15px;
+     }
+    .borda-dia-agenda {
+        border-right: 1px solid #7070701e;
+        width: 80px;
+    text-align: center;
+    }
+    .ajuste-agenda {
+        width: 300px;
+    }
+    #brechos-page {
+        margin-top: 100px;
+    }
+    .backg-ag {
+        padding-top: 30px;
+    background-image: url(../img/background-brech.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    }
     #header ul {
         text-align: center;
+    }
+    .position-mob {
+        margin-top: -100px;
     }
     #header a {
         margin: 0;
         
     }
-    #header li {
+    #sustentabilidade-page {
+        margin-top: 100px;
+    }
+    .respons-text {
+        width: 70%;
+        padding-bottom: 20px;
+    }
+    .hide {
+        display: none;
+    }
+    /* #header li {
         padding: 20px 0px 20px 0px;
         margin-right: 0px!important;
-    }
+    } */
     footer .align-footer-elem {
         display: block;
         text-align: center;
@@ -287,7 +518,7 @@ box-shadow: 0px 3px 6px 1px rgba(0,0,0,0.16);
         font-size: 100px;
         line-height: 90px;
     
-        padding-top: 80px;
+        padding-top: 20px;
     }
     #main h2 {
         font-size: 17px;
@@ -297,6 +528,9 @@ box-shadow: 0px 3px 6px 1px rgba(0,0,0,0.16);
     }
     #main .ajuste-local {
         width: 20%;
+    }
+    #main span {
+        font-size: 100px;
     }
     footer li {
         display: inline;
@@ -320,26 +554,146 @@ box-shadow: 0px 3px 6px 1px rgba(0,0,0,0.16);
         text-align: center;
         padding: 40px 0px;
     }
+    .btn-primary1, .btn-primary1:hover, .btn-primary1:active {
+        background-color: #01BC8C;
+        border-color: #01BC8C;
+        color: #fff;
+    }
+    .resultados-fz {
+        font-size: 18px;
+        font-weight: normal;
+    }
+    .backg-tablet {
+        padding-top: 30px;
+        background-image: url(../img/background-brech.svg);
+        background-repeat: no-repeat;
+        background-position: top center;
+    }
+    #brechos-page .form-control {
+        border: 0px solid black;
+        -webkit-box-shadow: 0px 3px 6px 1px rgba(0,0,0,0.16);
+        -moz-box-shadow: 0px 3px 6px 1px rgba(0,0,0,0.16);
+        box-shadow: 0px 3px 6px 1px rgba(0,0,0,0.16);
+    }
+    #brechos-page .ajuste-icone {
+        position: relative;
+    }
+    #brechos-page .ajuste-icone .icone-ajuste {
+        position: absolute;
+        top: 0px;
+        right: 20px;
+        font-size: 15px;
+        width: 30px;
+    }
   }
   @media only screen and (min-width: 1200px) {
     .responsivo-logo {
       width: 70px;
       padding-bottom: 1.5rem!important;
     }
+    .align-b {
+        width: 200px;
+    }
+    .texto-narrativa-2 {
+        font-size: 15px;
+        padding: 0px 50px;
+    }
+    #onde-doar-page .ajuste-icone .icone-ajuste {
+        position: absolute;
+        top: 0px;
+        right: 20px;
+        font-size: 15px;
+        width: 30px;
+    }
+    #onde-doar-page .form-control {
+        border: 0px solid black;
+        -webkit-box-shadow: 0px 3px 6px 1px rgba(0,0,0,0.16);
+        -moz-box-shadow: 0px 3px 6px 1px rgba(0,0,0,0.16);
+        box-shadow: 0px 3px 6px 1px rgba(0,0,0,0.1);
+    }
+    #onde-doar-page h2 {
+        font-weight: 400;
+        color: rgb(90, 90, 90);
+        font-size: 18px;
+    }
+    #onde-doar-page {
+        margin-top: 100px;
+    }
+    #sustentabilidade-page .sobre-t {
+        font-size: 25px;
+    }
+   
+    .backg-ag {
+        padding-top: 30px;
+    background-image: url(../img/background-brech.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    }
+    .borda-dia-agenda {
+        border-right: 1px solid #7070701e;
+        width: 80px;
+    text-align: center;
+    }
+    .ajuste-agenda {
+        width: 300px;
+    }
+    .btn-primary1, .btn-primary1:hover, .btn-primary1:active {
+        background-color: #01BC8C;
+        border-color: #01BC8C;
+        color: #fff;
+    }
+    .resultados-fz {
+        font-size: 18px;
+        font-weight: normal;
+    }
+    .backg-tablet {
+        padding-top: 30px;
+        background-image: url(../img/background-brech.svg);
+        background-repeat: no-repeat;
+        background-position: top center;
+    }
+    #brechos-page .form-control {
+        border: 0px solid black;
+        -webkit-box-shadow: 0px 3px 6px 1px rgba(0,0,0,0.16);
+        -moz-box-shadow: 0px 3px 6px 1px rgba(0,0,0,0.16);
+        box-shadow: 0px 3px 6px 1px rgba(0,0,0,0.16);
+    }
+    #brechos-page .ajuste-icone {
+        position: relative;
+    }
+    #brechos-page .ajuste-icone .icone-ajuste {
+        position: absolute;
+        top: 0px;
+        right: 20px;
+        font-size: 15px;
+        width: 30px;
+    }
+    #sustentabilidade-page {
+        margin-top: 100px;
+    }
     #main h1 {
-        font-size: 80px;
-        line-height: 75px;
-        
+        font-size: 100px;
+        line-height: 90px;
+        padding-top: 20px;
+    }
+    .position-mob {
+        margin-top: -200px;
+    }
+    .hide {
+        display: none;
     }
     .adjust-vw {
-        margin-top: 115px;
+        margin-top: 20px;
     }
     #main span {
-        font-size: 90px;
+        font-size: 100px;
     }
     #main h2 {
         font-size: 19px;
+        text-align: center;
+        padding-top: 40px;
     }
+    
     .align-center {
         margin-top:80px;
     }
@@ -381,6 +735,9 @@ box-shadow: 0px 3px 6px 1px rgba(0,0,0,0.16);
     }
     .footer-centralizado {
         text-align: center;
+    }
+    #brechos-page {
+        margin-top: 100px;
     }
 
   }
