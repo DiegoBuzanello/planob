@@ -492,12 +492,26 @@ a, a:hover, a:active, a:visited, a:focus {
   transition: transform 0.8s;
   transform-style: preserve-3d;
 }
-
+.btn.btn-link.collapsed, .btn.btn-link {
+	border: none;
+}
 
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
+.icons-impacto {
+	width: 30px;
+	height: auto;
+}
+#headingOne.card-header {
+	background-color: #fff;
+	padding:5px 0px;
+	margin-bottom: 1px!important;
+}
 
+#headingOne.btn.btn-link.btn-block {
+	background-color: black;
+}
 #clausula p{
 	text-align: justify;
 }
@@ -575,12 +589,13 @@ a, a:hover, a:active, a:visited, a:focus {
 	font-size: 15px;
 	font-weight: normal;
 	color: #535353;
+	line-height: 1.5;
 }
 .titulo-narrativa {
 	font-weight: 700;
 }
 .texto-narrativa-2 {
-	font-size: 12px;
+	font-size: 15px;
 	font-weight: normal;
 	line-height: 1.5;
 	color: #535353;
